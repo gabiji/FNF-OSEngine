@@ -111,6 +111,7 @@ class FreeplayState extends MusicBeatState
 		add(bg);
 		bg.screenCenter();
 
+		songText.isMenuItemCenter = true;
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
